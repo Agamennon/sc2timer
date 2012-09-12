@@ -1,0 +1,23 @@
+
+<div id=mainPanel class="panel" style="width: 200px;">
+
+
+    <audio id ="single" src="../../sounds/single.wav"></audio>
+
+
+    <form name="formLogin"  class="well" >
+
+        <label style="margin: 0px" >Inject</label>
+        <input style="margin-bottom: 10px;"  type="text" class="span3" ng-model="vars.inject.init" >
+        <label style="margin: 5px"  >{{vars.inject.val}}</label>
+        <span class="help-inline"></span>
+        <label style="margin: 0px" >Some other stuff</label>
+        <input  type="text" class="span3"  ng-model="other">
+        <span class="help-inline"></span>
+        <hr style="margin-bottom: 10px;">
+        <button style="margin-bottom: 5px;" type="submit" ng-click="start()"  class="btn">{{label}}</button>
+        <label style="color: #C00000; margin-left: 2px;">{{mensagem}}</label>
+
+    </form>
+
+</div>
