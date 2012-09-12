@@ -6,7 +6,7 @@ function mainCtrl($scope){
 
     $scope.vars = {};
 
-    $scope.vars.inject = {init:10,val:10};
+    $scope.vars.inject = {init:32,val:32};
     $scope.vars.other = {init:40,val:40};
 
     $scope.started = false;
